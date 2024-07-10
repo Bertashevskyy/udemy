@@ -1,0 +1,119 @@
+#product-overview {
+  background: linear-gradient(rgba(80, 68, 18, 0.6) 10%, transparent),
+    url("freedom.jpg") left 10% bottom 70% / cover no-repeat border-box, #ff1b68;
+  width: 100vw;
+  height: 33vh;
+  position: relative;
+  margin-top: 2.75rem;
+}
+
+#product-overview h1 {
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  position: absolute;
+  left: 3%;
+  bottom: 2%;
+}
+
+.section-title {
+  color: #2ddf5c;
+  text-align: center;
+}
+
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.plan {
+  background: #d5ffdc;
+  text-align: center;
+  padding: 1rem;
+  margin: 0.5rem;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.plan--highlighted {
+  background: #19b84c;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.plan__annotation {
+  color: #19b84c;
+  padding: 0.5rem;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 8px;
+}
+
+.plan__title {
+  color: #0e4f1f;
+}
+
+.plan__price {
+  color: #6b6b6b;
+}
+
+.plan--highlighted .plan__title {
+  color: #fff;
+}
+
+.plan--highlighted .plan__price {
+  color: #0e4f1f;
+}
+
+.plan__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan__feature {
+  padding: 0.5rem 0;
+}
+
+#key-features {
+  background: #ff1b68;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+#key-features .section-title {
+  color: #fff;
+  margin: 2rem;
+}
+
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-feature {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+
+.key-feature__description {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.key-feature__image {
+  border: 1.5px solid #6b6b6b;
+  border-radius: 50%;
+  background: #fff;
+  width: 128px;
+  height: 128px;
+  margin: auto;
+  padding: 1.2rem;
+}
